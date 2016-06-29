@@ -22,7 +22,7 @@ The `-d` runs in daemon mode, so remove it if undesired.
 Before `pip install -r requirements.txt` you may want to use a virtualenv and
 may need to do the following:
 
-1. `sudo apt-get install python-pip python-dev libssl-dev`
+1. `sudo apt-get install python-pip python-dev libssl-dev libffi-dev`
 1. `pip install virtualenv`
 
 Then these steps:
